@@ -5,22 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
-    <link rel="stylesheet" type="text/css" href="SignIn.css">
+    <link rel="stylesheet" href="SignIn.css">
 </head>
 <body>
-    <div class="login-form">
-        <h1>Login Form</h1>
-        <form action="#" method="POST">
-            <p>User Name</p>
-            <input type="text" placeholder="Enter your name" name="uname" required>
-
-            <p>Password</p>
-            <input type="password" placeholder="Enter your password" name="password" required>
-
-            <button type="submit">Login</button>
-            
-        </form>
-    </div> 
-
+    <div class="wrapper">
+        <div class="logo">
+            <img src="./logo.png" alt="logo" height="80px" width="90px">
+        </div>
+        <div class="title">
+            <p>Sign in to Github</p>
+        </div>
+        <div class="form">
+            <div class="input_field">
+                <label>Username or Email address</label>
+                <input type="text" class="input">
+            </div>
+            <div class="input_field">
+                <label>Password</label>
+                <input type="password" class="input">
+                <a href="#" class="forgot">Forgot password?</a>
+            </div>
+            <div class="btn2">
+                <input type="submit" value="Sign in" class="signin_btn">
+            </div>
+        </div>
+        <div class="create_act">
+            <p>New to Github? <a href="#">Create an account.</a></p>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Contact Github</a></li>
+                
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
