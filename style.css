@@ -38,6 +38,7 @@
     margin-top: -50px;
     float: right;
     font-size: 14px;
+    margin-right: 40px;
 }
 ul{
     float: left;
@@ -62,14 +63,14 @@ ul li a:hover{
     color: orange;
 }
 .search{
-    width: 35%;
+    width: 30%;
     float: left;
     /* margin-left: 270px;  */
-    margin-left: 100px;
+    margin-right: 100px;
 }
 .srch{
     font-family: 'Times New Roman';
-    width: 20%;
+    width: 40%;
     height: 40px;
     background: transparent;
     border: 1px solid orange;
@@ -83,7 +84,7 @@ ul li a:hover{
     border-top-left-radius: 5px;
 }
 .btn{
-    width: 10%;
+    width: 20%;
     height: 40px;
     background: orange;
     border: 2px solid orange;
